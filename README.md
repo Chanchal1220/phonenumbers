@@ -32,9 +32,9 @@ Validation of a phone number:
 
     Test output:
     Enter the mobile number with the country ID
-    Ex +129876543210
+    Ex +918228874432
     
-    +91xxxxxxxxxx
+    +918228874432
     ('Asia/Calcutta',)
     Reliance Jio
     भारत
