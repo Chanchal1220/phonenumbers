@@ -14,20 +14,20 @@ __Get Timezone:__
 First, we do parse the string input to phonenumber format, and then we use an inbuilt function to get the timezone of a user.
 It gives the output for valid numbers only,so do check if there is no relevant output.*
 
-**ex: timezone.time_zones_for_number(mobileNumber)**
+**ex: timezone.time_zones_for_number(8235979518)**
 
 
 __Carrier and Region of a Phone Number:__
 *Here we will learn how to find the carrier and region of a phone number using the geocoder and carrier functions of this module.Here we can choose multiple languages to display the result.*
 
-**ex for carrier : carrier.name_for_number(mobileNumber, "en")
-ex for region: geocoder.description_for_number(mobileNumber, "hi")**
+**ex for carrier : carrier.name_for_number(8235979518, "en")
+ex for region: geocoder.description_for_number(8235979518, "hi")**
 
 
 Validation of a phone number:
 *A simple python program, to check whether a given phone number is valid or not (e.g. it’s in an assigned exchange), and to check whether a given phone number is possible or not (e.g. it has the right number of digits).*
 
-**ex: phonenumbers.is_valid_number (mobileNumber)**
+**ex: phonenumbers.is_valid_number (8235979518)**
 
 
     Test output:
